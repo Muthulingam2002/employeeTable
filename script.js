@@ -1,5 +1,5 @@
 const postdata = async (data) => {
-    const res = await fetch("http://localhost:3000", {
+    const res = await fetch("http://13.238.194.19:3000", {
         method: "POST",
         headers: {
             "Content-Type": "application/json",
